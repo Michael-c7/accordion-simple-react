@@ -87,8 +87,8 @@ ul {
 .question__text {
   line-height:1.4;
 
-  display:none;
-  z-index:-999;
+  /* display:none;
+  z-index:-999; */
 }
 
 .show-question-text {
