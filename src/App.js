@@ -11,7 +11,7 @@ export const App = () => {
         <section className="container">
           <h1 className="container-heading">Questions And Answers About Login</h1>
           <ul className="questions">
-            {questionsData.map((question) => {
+            {questionsDataState.map((question) => {
                 const {id} = question;
                 return (
                   <Question  key={id} {...question}/>
